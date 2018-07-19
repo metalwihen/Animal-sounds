@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AnimalSounds</string>
+    <string name="msg_tap_here_to_make_dog_bark">START BARK</string>
+    <string name="msg_tap_here_to_stop_dog_bark">STOP BARK</string>
+</resources>
