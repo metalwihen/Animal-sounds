@@ -3,6 +3,10 @@ package com.example.mwshuttl.animalsounds.soundbox;
 public abstract class Dog {
 
     /*
+    Different languages have different sounds for different animals.
+
+    For example, a dog's bark is "woof" in English and "ham" in Romanian. Other sounds:
+
     WOOF - English
     GAV - Russian
     WAOUH - French

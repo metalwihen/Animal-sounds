@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Add this line to enable field injection to take place
+        // Add this line to enable field injection
         DaggerAnimalComponent.create().inject(this);
 
-
+        // View Layer
         findViewById(R.id.bark_button_start).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
